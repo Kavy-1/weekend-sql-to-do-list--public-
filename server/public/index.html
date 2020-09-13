@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="vendors/jquery.js"></script>
+    <script src="client/client.js"></script>
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div id="inputFields">
+        <input id="taskIn" type="text" placeholder="Task"/>
+        <input id="urgencyIn" type="text" placeholder="Urgency"/>
+        <button id="addTaskBtn">Add</button>
+    </div>
+
+    <h2>Tasks:</h2>
+    <table>
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Urgency</th>
+            <th>Status</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="listOut">
+        </tbody>
+      </table>
+</body>
+</html>

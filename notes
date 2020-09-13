@@ -1,0 +1,37 @@
+TODO LIST - 
+[x] - Download packages ( express, pg, body-parser )
+[x] - Create folder and file layout
+[x] - Create .gitignore
+[x] - Add 'npm start' to JSON
+
+[x] - Create HTML
+    [x] - Set up input fields
+    [x] - Create table to append to
+
+[ ] - Create CSS
+    [ ] - Add background color to body
+    [ ] - Add font-family and size to text
+    [ ] - Add text background color/text color to display that the task has been completed or not
+
+[x] - Create Client.js
+    [x] - Create click listeners
+    [x] - POST
+    [x] - GET
+    [x] - PUT
+        [x] - Display whether the task is complete or not
+    [x] - DELETE
+        [x] - Remove task from DOM and database
+
+[x] - Create Vendors
+    [x] - Add jQuery
+
+[x] - Create Server.js
+    [x] - Set up requires
+    [x] - GET
+    [x] - POST
+    [x] - PUT
+    [x] - DELETE
+
+[x] - Create Database.sql
+    [x] - Create database is Postico names "weekend-to-do-app"
+    [x] - Rows include: id, task, urgency, status
